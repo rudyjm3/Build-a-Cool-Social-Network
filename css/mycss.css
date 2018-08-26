@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+html {
+  font-family: sans-serif;
+}
+header {
+  background-color: #3b5998;
+  padding: 15px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+}
+header i {
+  color: white;
+}
+.logo-area {
+  color: white;
+  display: inline-block;
+  width: 20%;
+}
+.logo-area a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.menu {
+  display: inline-block;
+  width: 20%;
+  text-align: right;
+  border-right: 1px solid rgba(255,255,255, .3);
+  padding-right: 20px;
+}
+.menu ul li {
+  display: inline-block;
+  margin-right: 20px
+}
+.icon-links {
+  display: inline-block;
+  width: 20%;
+  padding-left: 35px;
+}
+.icon-links ul li {
+  display: inline-block;
+  padding-right: 5px;
+}
+.icon-links .quick-options {
+  display: inline-block;
+
+}
+.icon-links .privacy {
+  display: inline-block;
+  border-left: 1px solid rgba(255,255,255, .3);
+  padding-left: 20px;
+  margin-left: 25px;
+
+}
+.search-area {
+  display: inline-block;
+  width: 39%;
+  text-align: right;
+}
+.search-area ul li {
+  display: inline-block;
+}
+/* =============END HEADER  ==================================*/
+/* =========== START SECTION 1 TOP AREA  ===========================*/
+#top-area {
+  padding: 200px 15px 90px 15px;
+  background: url(https://wallpapermemory.com/uploads/796/path-background-hd-1440x960-465637.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+#top-area .profile-info .user-image {
+  padding: 10px;
+  display: inline-block;
+}
+#top-area .profile-info .user-image img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+#top-area .profile-info .user-details {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 20px;
+}
+#top-area .profile-info .user-details h3 {
+  color: white;
+  font-size: 26px;
+  font-weight: 300;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+#top-area .profile-info .user-details a {
+  width: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  margin-right: 10px;
+  -webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+  background: rgba(255, 255, 255, 0.3);
+  transition: background .4s ease-in-out;
+}
+#top-area .profile-info .user-details a:hover {
+  background: #2196f3;
+}
