@@ -63,7 +63,7 @@ header i {
 }
 .search-area {
   display: inline-block;
-  width: 39%;
+  width: 35%;
   text-align: right;
 }
 .search-area ul li {
@@ -117,3 +117,51 @@ border-radius: 3px;
   background: #2196f3;
 }
 /*============== END SECTION ONE TOP AREA ================== */
+
+.intro-box {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+  padding: 15px;
+  border: 1px solid grey;
+  width: 33%;
+  height: auto;
+}
+.intro-box h4 h5 p {
+  color: grey;
+}
+.intro-title-sec {
+  border: 1px solid green;
+
+}
+.intro-icon {
+  display: inline-block;
+}
+.globe {
+  background: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.globe {
+  color: white;
+}
+.intro-title {
+  display: inline-block;
+  margin-left: 10px;
+  color: grey;
+}
+.intro-title h4 {
+  font-weight: 700;
+}
+.profession {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.edit-profession {
+  display: inline-block;
+  float: right;
+  margin-right:
+}
