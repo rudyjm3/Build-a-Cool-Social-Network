@@ -117,32 +117,42 @@ border-radius: 3px;
   background: #2196f3;
 }
 /*============== END SECTION ONE TOP AREA ================== */
-
+/*============== START OF LEFT INFO COLUMN =================*/
+body {
+  background-color: #fafafa;
+}
 .intro-box {
+  background-color: white;
   margin-top: 40px;
   margin-bottom: 15px;
   margin-left: 40px;
   padding: 15px;
-  border: 1px solid grey;
-  width: 33%;
+  /* border: 1px solid #ededed; */
+  width: 30%;
   height: auto;
+  -webkit-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
+-moz-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
+box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
 }
 .intro-box h4 h5 p {
   color: grey;
 }
+.intro-box a {
+  text-decoration: none;
+}
 .intro-title-sec {
-  border: 1px solid green;
+  /*border: 1px solid green;*/
 
 }
 .intro-icon {
   display: inline-block;
 }
 .globe {
-  background: red;
+  background: #e0e0e0;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  padding: 10px;
+  padding: 9px 10px 10px 9px;
   margin-bottom: 30px;
 }
 .globe {
@@ -156,12 +166,125 @@ border-radius: 3px;
 .intro-title h4 {
   font-weight: 700;
 }
-.profession {
+.profession h5 {
   display: inline-block;
   margin-bottom: 20px;
+  font-weight: 700;
+  color: grey;
 }
-.edit-profession {
+.edit-profession i {
   display: inline-block;
   float: right;
-  margin-right:
+  /*margin-right: 10px;*/
+  color: grey;
+}
+.intro-content p {
+  font-weight: 600;
+  color: #c1c1c1;
+  margin-bottom: 15px;
+}
+.intro-box-update-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: #68b8ff;
+}
+/* ============== START OF PHOTOS BOX ========== */
+.photos-box {
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+  padding: 15px;
+  /*border: 1px solid #ededed; */
+  width: 30%;
+  height: auto;
+  -webkit-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
+-moz-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
+box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
+}
+.photo-icon {
+  display: inline-block;
+}
+.camera {
+  color: white;
+  background: #e0e0e0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 8px 10px 10px 9px;
+  margin-bottom: 15px;
+}
+.photo-title {
+  display: inline-block;
+  margin-left: 10px;
+  color: grey;
+  font-weight: 700;
+}
+.more-arrow {
+  display: inline-block;
+  float: right;
+  margin-top: 20px;
+  color: grey;
+}
+.photo-gallery-1 td {
+  padding: 2px;
+}
+.photo-gallery-1 img {
+  width: 132px;
+  height: 132px;
+}
+/* =========== START FRIENDS STYLING ============================ */
+.friends-box {
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+  padding: 15px;
+  width: 30%;
+  height: auto;
+  -webkit-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
+-moz-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
+box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
+}
+.friends-icon {
+  display: inline-block;
+}
+.friends-icon {
+  color: white;
+  background: #e0e0e0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 8px 10px 10px 9px;
+  margin-bottom: 15px;
+}
+.friend {
+  font-size: 1.7em;
+  padding-top: 3px;
+}
+.friends-title {
+  display: inline-block;
+  margin-left: 10px;
+  color: grey;
+  font-weight: 700;
+}
+.friends-count ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+/*.friends-count li {
+  display: list-item;
+}*/
+.friends-count {
+  display: inline-block;
+  color: grey;
+  font-weight: 700;
+}
+
+.friends-gallery-1 td {
+  padding: 2px;
+}
+.friends-gallery-1 img {
+  width: 132px;
+  height: 132px;
 }
