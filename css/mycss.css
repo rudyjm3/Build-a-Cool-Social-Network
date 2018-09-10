@@ -240,9 +240,9 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
 .photo-gallery-1 td {
   padding: 2px;
 }
-.photo-gallery-1 img {
-  width: 137px;
-  height: 137px;
+.photo-gallery-1 table tr td img {
+  width: 150px;
+  height: 150px;
 }
 /* =========== START FRIENDS BOX STYLING LEFT COLUMN ==================== */
 .friends-box {
@@ -293,7 +293,7 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
   padding: 2px;
 }
 .friends-gallery-1 img {
-  width: 135px;
+  width: 145px;
   height: 135px;
 }
 /* ============================END LEFT CLOUMN STYLING ===================== */
@@ -404,4 +404,7 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
 }
 .share-like-post-box .fa-thumbs-up {
   margin-right: 30px;
+}
+.share-like-post-box i:hover {
+  color: #68b8ff;
 }
