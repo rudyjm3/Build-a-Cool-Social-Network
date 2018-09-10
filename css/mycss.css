@@ -121,14 +121,19 @@ border-radius: 3px;
 body {
   background-color: #fafafa;
 }
+#left-container {
+  float: left;
+  width: 30%;
+
+}
 .intro-box {
   background-color: white;
-  margin-top: 40px;
+  margin-top: 47px;
   margin-bottom: 15px;
   margin-left: 40px;
   padding: 15px;
   /* border: 1px solid #ededed; */
-  width: 30%;
+  width: 100%;
   height: auto;
   -webkit-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
 -moz-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
@@ -188,15 +193,15 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
   font-weight: 600;
   color: #68b8ff;
 }
-/* ============== START OF PHOTOS BOX ========== */
+/* ============== START OF PHOTOS BOX LEFT COLUMN ========== */
 .photos-box {
   background-color: white;
   margin-top: 15px;
   margin-bottom: 15px;
   margin-left: 40px;
-  padding: 15px;
-  /*border: 1px solid #ededed; */
-  width: 30%;
+  /*padding: 15px;*/
+
+  width: 100%;
   height: auto;
   -webkit-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
 -moz-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
@@ -204,14 +209,16 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
 }
 .photo-icon {
   display: inline-block;
+  margin: 15px 0 0 15px;
 }
 .camera {
+  font-size: 20px;
   color: white;
   background: #e0e0e0;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  padding: 8px 10px 10px 9px;
+  padding: 9px 8px 8px 10px;
   margin-bottom: 15px;
 }
 .photo-title {
@@ -223,24 +230,28 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
 .more-arrow {
   display: inline-block;
   float: right;
-  margin-top: 20px;
+  margin-top: 35px;
+  margin-right: 15px;
   color: grey;
+}
+.photo-gallery-1 {
+  margin: 0 5px 0 5px;
 }
 .photo-gallery-1 td {
   padding: 2px;
 }
 .photo-gallery-1 img {
-  width: 132px;
-  height: 132px;
+  width: 137px;
+  height: 137px;
 }
-/* =========== START FRIENDS STYLING ============================ */
+/* =========== START FRIENDS BOX STYLING LEFT COLUMN ==================== */
 .friends-box {
   background-color: white;
   margin-top: 15px;
   margin-bottom: 15px;
   margin-left: 40px;
   padding: 15px;
-  width: 30%;
+  width: 100%;
   height: auto;
   -webkit-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
 -moz-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
@@ -272,9 +283,6 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
   list-style-type: disc;
   margin-left: 20px;
 }
-/*.friends-count li {
-  display: list-item;
-}*/
 .friends-count {
   display: inline-block;
   color: grey;
@@ -285,6 +293,115 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
   padding: 2px;
 }
 .friends-gallery-1 img {
-  width: 132px;
-  height: 132px;
+  width: 135px;
+  height: 135px;
+}
+/* ============================END LEFT CLOUMN STYLING ===================== */
+
+/* ============ START RIGHT CLOUMN STYLING ===============================*/
+#right-container {
+  display: inline-block;
+  float: right;
+  width: 60%;
+  padding-right: 140px;
+}
+.submenu-right-col {
+  background-color: white;
+  margin-bottom: 20px;
+  margin-top: -40px;
+  -webkit-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
+-moz-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
+box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
+}
+.submenu-right-col ul li {
+  display: inline-block;
+  color: #c1c1c1;
+  width: 19.5%;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  text-align: center;
+  border-bottom: 3px solid white;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+.submenu-right-col ul li:hover {
+  border-bottom: 3px solid #68b8ff;
+  color: #68b8ff;
+}
+.submenu-right-col ul li:nth-child(5) {
+  vertical-align: top;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.submenu-right-col ul li .fa {
+  font-size: 20px;
+}
+.submenu-right-col ul li span {
+  display: block;
+  margin: 15px 0 0 0;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+/* ==================== START POST ( RIGHT COLUMN ) STYLING ========*/
+.post {
+  background-color: white;
+  margin-bottom: 20px;
+  font-weight: 600;
+  -webkit-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
+-moz-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
+box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
+}
+.post a {
+  color: #68b8ff;
+}
+.user-image-post img {
+  display: inline-block;
+  float: left;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 15px;
+}
+.post-info {
+  padding-top: 16px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+.post-info .post-date {
+  display: block;
+  color: #c1c1c1;
+}
+.more-arrow-right-col {
+  display: inline-block;
+  float: right;
+  color: grey;
+  margin-right: 20px;
+  margin-top: -25px;
+  }
+.post-image img {
+  width: 100%;
+  height: auto;
+}
+.share-like-post-box {
+  padding: 25px 25px 35px 25px;
+}
+.share-like-post-box i {
+  display: inline-block;
+  color: #c1c1c1;
+  font-size: 20px;
+}
+.share-like-post-box a {
+  float: left;
+}
+.share-like-post-box .comment-count {
+
+  float: right;
+}
+.share-like-post-box .fa-comment-alt {
+  float: right;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.share-like-post-box .fa-thumbs-up {
+  margin-right: 30px;
 }
