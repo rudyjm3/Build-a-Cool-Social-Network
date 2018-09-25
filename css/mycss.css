@@ -301,6 +301,7 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
 /* ============ START RIGHT CLOUMN STYLING ===============================*/
 #right-container {
   display: inline-block;
+  position: relative;
   float: right;
   width: 60%;
   padding-right: 140px;
@@ -345,6 +346,7 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
 /* ==================== START POST ( RIGHT COLUMN ) STYLING ========*/
 .post {
   background-color: white;
+  position: relative;
   margin-bottom: 20px;
   font-weight: 600;
   -webkit-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
@@ -407,4 +409,67 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
 }
 .share-like-post-box i:hover {
   color: #68b8ff;
+}
+/* ================================== POST COMMENT BOX STYLING START =======*/
+.post-comment-box {
+  background-color: #f4f4f4;
+  padding: 15px 0 15px 0;
+  font-size: 14px;
+}
+.user-image-comment-post img {
+  display: block;
+  float: left;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 0 15px 25px 15px;
+
+}
+.comment-info a {
+
+}
+.comment-post-date {
+  float: right;
+  color: grey;
+  margin-right: 15px;
+}
+.comment-box-text {
+  display: block;
+  position: relative;
+  margin: 10px 15px 10px 10px;
+  color: #a8a8a8;
+  line-height: 1.4;
+}
+.post-comment-reply-box {
+  position: relative;
+  padding: 15px 0 15px 0;
+  font-size: 14px;
+}
+.comment-reply-info input[type=text] {
+  position: relative;
+  color: #e0e0e0;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  width: 81%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.comment-reply-info input[type=text]::placeholder {
+  color: #a8a8a8;
+}
+ .comment-box-icons i {
+  position: relative;
+  right: 60px;
+  color: #c1c1c1;
+  font-size: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.comment-box-icons img {
+  position: relative;
+  top: 3px;
+  right: 60px;
+  color: #c1c1c1;
+  font-size: 20px;
+  cursor: pointer;
 }
