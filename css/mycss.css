@@ -93,7 +93,7 @@ header i {
   margin-left: 10px;
 }
 .search-area li input[type=text]::placeholder {
-  color: #a8a8a8;
+  color: #e0e0e0;
 }
 .clear-search i {
   position: relative;
