@@ -74,6 +74,12 @@ header i {
   padding-left: 20px;
   margin-left: 25px;
 }
+.privacy .fa-unlock-alt {
+  margin-left: 20px;
+}
+.privacy i:nth-child(2) {
+  margin-left: 3px;
+}
 .search-area {
   display: inline-block;
   width: 35%;
