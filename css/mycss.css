@@ -6,6 +6,7 @@ a {
 }
 html {
   font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 header {
   background-color: #3b5998;
@@ -24,11 +25,12 @@ header i {
   color: white;
   display: inline-block;
   width: 20%;
+  padding-left: 20px;
 }
 .logo-area a {
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
 }
 .menu {
   display: inline-block;
@@ -52,22 +54,50 @@ header i {
 }
 .icon-links .quick-options {
   display: inline-block;
-
+}
+.bell-notification-count {
+  position: relative;
+  top: -8px;
+  left: -10px;
+  font-size: 8px;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: red;
+  width: 10px;
+  height:auto;
+  padding: 0 4px 1px 4px;
+  color: white;
 }
 .icon-links .privacy {
   display: inline-block;
   border-left: 1px solid rgba(255,255,255, .3);
   padding-left: 20px;
   margin-left: 25px;
-
 }
 .search-area {
   display: inline-block;
   width: 35%;
-  text-align: right;
+  /*text-align: right;*/
+  margin-left: 30px;
 }
 .search-area ul li {
   display: inline-block;
+}
+.search-area li input[type=text] {
+  background-color: #3b5998;
+  color: white;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  line-height: 1.5;
+  width: 420px;
+  margin-left: 10px;
+}
+.search-area li input[type=text]::placeholder {
+  color: #a8a8a8;
+}
+.clear-search i {
+  position: relative;
+  right: 25px;
 }
 /* =============END HEADER  ==================================*/
 /* =========== START SECTION 1 TOP AREA  ===========================*/
@@ -153,11 +183,12 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
   display: inline-block;
 }
 .globe {
+  font-size: 25px;
   background: #e0e0e0;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  padding: 9px 10px 10px 9px;
+  padding: 8px 0px 0px 8px;
   margin-bottom: 30px;
 }
 .globe {
@@ -183,8 +214,12 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
   /*margin-right: 10px;*/
   color: grey;
 }
+.edit-profession i:hover {
+  color: orange;
+}
 .intro-content p {
-  font-weight: 600;
+  /*font-weight: 600;*/
+  font-size: 15px;
   color: #c1c1c1;
   margin-bottom: 15px;
 }
@@ -199,13 +234,14 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
   margin-top: 15px;
   margin-bottom: 15px;
   margin-left: 40px;
-  /*padding: 15px;*/
+  padding-bottom: 10px;
 
   width: 100%;
   height: auto;
   -webkit-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
 -moz-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
 box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
+  overflow: auto; /* Keeps images inside the photos-box container because the images have a float and are larger than the container in a whole */
 }
 .photo-icon {
   display: inline-block;
@@ -234,15 +270,18 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
   margin-right: 15px;
   color: grey;
 }
-.photo-gallery-1 {
+/*.photo-gallery-1 {
+  position: relative;
   margin: 0 5px 0 5px;
-}
-.photo-gallery-1 td {
-  padding: 2px;
-}
-.photo-gallery-1 table tr td img {
-  width: 150px;
-  height: 150px;
+}*/
+
+ .photo-gallery-images img {
+   position: relative;
+   display: inline-block;
+  float: left;
+  width: 32%;
+  height: 140px;
+  margin: 2px;
 }
 /* =========== START FRIENDS BOX STYLING LEFT COLUMN ==================== */
 .friends-box {
@@ -250,24 +289,28 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
   margin-top: 15px;
   margin-bottom: 15px;
   margin-left: 40px;
-  padding: 15px;
+  /*padding: 15px;*/
   width: 100%;
   height: auto;
   -webkit-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
 -moz-box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
 box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
+overflow: auto;
 }
 .friends-icon {
   display: inline-block;
 }
-.friends-icon {
+.friends-icon i {
+  font-size: 20px;
   color: white;
   background: #e0e0e0;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  padding: 8px 10px 10px 9px;
+  padding: 9px 0px 0px 8px;
+  margin-top: 15px;
   margin-bottom: 15px;
+  margin-left: 15px;
 }
 .friend {
   font-size: 1.7em;
@@ -289,12 +332,13 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
   font-weight: 700;
 }
 
-.friends-gallery-1 td {
-  padding: 2px;
-}
-.friends-gallery-1 img {
-  width: 145px;
-  height: 135px;
+.friends-gallery img {
+  position: relative;
+  display: inline-block;
+ float: left;
+ width: 32%;
+ height: 140px;
+ margin: 2px;
 }
 /* ============================END LEFT CLOUMN STYLING ===================== */
 
@@ -447,7 +491,8 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
 }
 .comment-reply-info input[type=text] {
   position: relative;
-  color: #e0e0e0;
+  color: black;
+  line-height: 1.4;
   border: none;
   border-bottom: 1px solid #e0e0e0;
   width: 81%;
@@ -465,6 +510,9 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
   margin-right: 10px;
   cursor: pointer;
 }
+.comment-box-icons i:hover {
+  color: #68b8ff;
+}
 .comment-box-icons img {
   position: relative;
   top: 3px;
@@ -472,4 +520,7 @@ box-shadow: 0px 9px 10px -2px rgba(168,168,168,0.4);
   color: #c1c1c1;
   font-size: 20px;
   cursor: pointer;
+}
+.comment-box-icons img:hover {
+  color: #68b8ff;
 }
